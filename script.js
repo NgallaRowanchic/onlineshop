@@ -11,10 +11,59 @@ window.onscroll = () =>{
     navbar.classList.remove('active'); 
 };
 
-var swiper =new swiper(".home-slider",{
+var swiper =new swiper(".reviews-slider",{
     loop:true,
-    navigation: {
-        nextEl:".swiper-button-next",
-        prevEl:".swiper-button-prev",
+    spaceBetween: 20,
+    autoHeight:true,
+    grabCursor:true,
+   breakpoints:{
+    640: {
+        slidesPerView:1,
+   },
+    768: {
+        slidesPerView:2,
     },
+    1024: {
+        slidesPerView:3,
+       
+    },
+   },
 });
+
+let loadMoreBtn =document.querySelector('.packages  .load-more .btn');
+let currentItem =3;
+
+loadMoreBtn.onclick = () =>{
+    let boxes=[...document.querySelectorAll('.packages .box-container .box')];
+    for (var i=currentItem; i < currentItem + 3; i++) {
+        boxes[i].style.display = 'inline-block';
+    }
+    currentItem += 3;
+    if(currentItem >= boxes.length){
+        loadMoreBtn.style.display ='none';
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
