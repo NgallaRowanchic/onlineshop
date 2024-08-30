@@ -42,7 +42,7 @@
 
   <div class="swiper home-slider">
       <div class="swiper-wrapper">
-           <div class="swiper-slide slide" style="background: url(PICS/h3.jpg) no-repeat">
+           <div class="swiper-slide slide" style="background: url(PICS/h2.jpg) no-repeat">
               <div class="content">
                 <span>style, fashion, glow</span>
                 <h3>Discover your style</h3>
@@ -57,7 +57,7 @@
               </div>
            </div>
 
-           <div class="swiper-slide " style="background: url(PICS/h4.jpg) no-repeat">
+           <div class="swiper-slide " style="background: url(PICS/h3.jpg) no-repeat">
               <div class="content">
                 <span>style, fashion, glow</span>
                 <h3>Discover your style</h3>

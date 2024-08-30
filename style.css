@@ -288,11 +288,12 @@ section{
 .home-packages .box-container .box .images{
     height: 25rem;
     overflow: hidden;
+
 }
 .home-packages .box-container .box .images img{
     height: 100%;
     width:100%;
-    object-fit:cover;
+    object-fit: cover;
     transition: .2s linear;
 }
 .home-packages .box-container .box .content{
@@ -401,7 +402,7 @@ section{
     background: var(--white);
     text-align: center;
     box-shadow: var(--box-shadow);
-    user-select: none;
+    
 }
 .reviews .slide .stars{
    padding-bottom: 5rem; 
